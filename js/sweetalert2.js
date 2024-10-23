@@ -5,7 +5,7 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Patricia Grabiela Hernandez <br> y <br> Adriana Herrera Cruz</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia a Nuestra Boda</p><br><p class="textos-alert-inicio-T2">Gaby <br>&<br> Adri</p></div>',
+	html:'<p class="textos-alert-inicio">Patricia Gabriela Hernandez Piña <br> y <br> Adriana Herrera Cruz</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia a Nuestra Boda</p><br><p class="textos-alert-inicio-T2">Gaby <br>&<br> Adri</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
 	confirmButtonColor: "#917c07f1",
@@ -58,14 +58,27 @@ $('#recepcion').click(function () {
 	
 	});
 });
+
+$('#liverpool').click(function () {
+	Swal.fire({
+		title:'Mesa de regalos Liverpool',
+		//text: '',
 	
+		html:'<p>Número de Evento: 51545309<p/><br> <a href="https://mesaderegalos.liverpool.com.mx/eventodebusqueda" target="_blank"> Ir a Liverpool</a>',
+		//icon:'success'
+		confirmButtonText:'Cerrar',
+		confirmButtonColor: "#917c07f1",
+		//footer:'Parroquia de Dulce Nombre de Jesus ',
+	
+	});
+});
 
 $('#transferencia').click(function () {
 		Swal.fire({
 			title:'Datos para Transferencia',
 			//text: '',
 		
-			html:'<p>Cuenta BBVA<p/><br>Clabe: 9999999999',
+			html:'<p>Cuenta Clabe BBVA<p/><br>012840015261932040',
 			//icon:'success'
 			confirmButtonText:'Cerrar',
 			confirmButtonColor: "#917c07f1",

@@ -53,7 +53,6 @@ body{
 
 }
 
-
 .subtitulo-head{
     position: absolute;
     bottom: 45px;
@@ -180,6 +179,67 @@ h4{
 
 }
 
+.confirmacion-v {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* vh es la altura del dispositivo */
+    height: 60vh;  
+
+    /* fallback for old browsers */
+    background-image: linear-gradient(to top, #b2b5822a 0%, hsla(0, 0%, 97%, 0) 100%),url(img/fondo.jpg);
+    background-size: cover;
+
+
+
+
+    position:relative;
+
+
+
+}
+
+.confirmacion-vestimenta{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffffff67 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    border-radius: 30px;
+    text-align: center;
+    
+
+}
+
+.confirmacion-vestimenta-a{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffffff67 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    border-radius: 30px;
+    text-align: center;
+    
+
+}
+
+.confirmacion-vestimenta-n{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffffff67 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    border-radius: 30px;
+    text-align: center;
+    
+
+}
 .confirmacion-servicio{
     width: 80%;
     display: flex;
@@ -251,7 +311,13 @@ h4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
 }
-
+.textos-alert-inicio-T4{
+    font-size: 10px;
+    font-weight:lighter;
+    color:#000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
 
 
 .spread{
@@ -591,6 +657,10 @@ footer{
         position: absolute;
        margin-bottom: 0;
 
+    }
+    .anillos{
+    
+       max-width: 40%;
     }
     .img-principal{
     
