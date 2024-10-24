@@ -5,7 +5,7 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Patricia Gabriela Hernandez Piña <br> y <br> Adriana Herrera Cruz</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia a Nuestra Boda</p><br><p class="textos-alert-inicio-T2">Gaby <br>&<br> Adri</p></div>',
+	html:'<p class="textos-alert-inicio">Patricia Gabriela Hernandez Lima <br> y <br> Adriana Herrera Cruz</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia a Nuestra Boda</p><br><p class="textos-alert-inicio-T2">Gaby <br>&<br> Adri</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
 	confirmButtonColor: "#917c07f1",
