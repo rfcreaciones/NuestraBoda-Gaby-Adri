@@ -78,7 +78,7 @@ $('#transferencia').click(function () {
 			title:'Datos para Transferencia',
 			//text: '',
 		
-			html:'<p>Cuenta Clabe BBVA<p/><p>Nombre del Titular: Adriana Herrera Cruz<p/><br>Clabe:012840015261932040',
+			html:'<p>Cuenta Clabe BBVA<p/><p>Nombre: Adriana Herrera Cruz<p/><br>Clabe: 012840015261932040',
 			//icon:'success'
 			confirmButtonText:'Cerrar',
 			confirmButtonColor: "#917c07f1",
